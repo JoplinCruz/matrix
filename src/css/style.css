@@ -1,0 +1,22 @@
+@font-face {
+    font-family: Katakana;
+    src: url("../font/katakana.ttf")
+}
+
+@font-face {
+    font-family: Japanese;
+    src: url("../font/Japanese.ttf");
+}
+
+body {
+    font-family: Katakana;
+    background-color: black;
+}
+
+#matrix {
+    color: darkgreen;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
